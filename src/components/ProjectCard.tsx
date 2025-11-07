@@ -8,11 +8,14 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <article className="card h-full flex flex-col" aria-labelledby={`project-${project.id}-title`}>
+    <article
+      className="card h-full flex flex-col group hover:scale-105 hover:shadow-xl hover:shadow-primary-500/20 transition-all duration-300"
+      aria-labelledby={`project-${project.id}-title`}
+    >
       <div className="flex-1">
         <h3
           id={`project-${project.id}-title`}
-          className="text-xl font-semibold text-white mb-2"
+          className="text-xl font-semibold text-white mb-2 group-hover:text-primary-400 transition-colors"
         >
           {project.name}
         </h3>
@@ -33,10 +36,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.links.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded"
+              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded hover:translate-x-1 transition-transform inline-block"
               aria-label={`View ${project.name} on GitHub`}
             >
-              GitHub
+              GitHub →
             </a>
           )}
           {project.links.demo && (
@@ -44,10 +47,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.links.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded"
+              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded hover:translate-x-1 transition-transform inline-block"
               aria-label={`View ${project.name} demo`}
             >
-              Demo
+              Demo →
             </a>
           )}
           {project.links.website && (
@@ -55,10 +58,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.links.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded"
+              className="text-primary-400 hover:text-primary-300 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-800 rounded hover:translate-x-1 transition-transform inline-block"
               aria-label={`Visit ${project.name} website`}
             >
-              Website
+              Website →
             </a>
           )}
         </div>
@@ -66,4 +69,3 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     </article>
   );
 };
-

@@ -45,7 +45,7 @@
     },
     {
       "category": "DevOps & Version Control",
-      "items": ["Docker", "Jenkins", "Git", "GitHub Actions"]
+      "items": ["Docker", "Jenkins", "Git"]
     },
     {
       "category": "Other Tools & Technologies",
@@ -109,6 +109,46 @@
   ],
   "projects": [
     {
+      "id": "shreehaven",
+      "name": "ShreeHaven",
+      "description": "Full-stack e-commerce website with customer and admin features, product suggestions, and order tracking.",
+      "longDescription": "Built a full-stack e-commerce website with customer and admin features, product suggestions, product management, order tracking, and an easy-to-use interface using MERN stack.",
+      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/ShreeHaven"
+      }
+    },
+    {
+      "id": "ecommerce-api",
+      "name": "Ecommerce API",
+      "description": "RESTful API for a shopping website with comprehensive product and order management.",
+      "longDescription": "This is my first REST API project for a shopping website. Built with Node.js and Express.js, featuring product management, user authentication, and order processing capabilities.",
+      "tools": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/Ecommerce-API"
+      }
+    },
+    {
+      "id": "restaurant-api",
+      "name": "Restaurant API",
+      "description": "RESTful API for restaurant management system with menu and order handling.",
+      "longDescription": "A comprehensive REST API for restaurant operations including menu management, order processing, and customer service features.",
+      "tools": ["JavaScript", "Node.js", "Express.js"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/Restaurant-API"
+      }
+    },
+    {
+      "id": "shreehaven-backend",
+      "name": "ShreeHaven Backend",
+      "description": "Backend API for ShreeHaven e-commerce platform with robust data management.",
+      "longDescription": "Dedicated backend service for ShreeHaven e-commerce platform, handling all server-side logic, database operations, and API endpoints.",
+      "tools": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/ShreeHavenBackend"
+      }
+    },
+    {
       "id": "chitchat",
       "name": "ChitChat",
       "description": "Real-time chat application with group chats, guest messaging, and secure single-session login.",
@@ -119,13 +159,23 @@
       }
     },
     {
-      "id": "shreehaven",
-      "name": "ShreeHaven",
-      "description": "Full-stack e-commerce website with customer and admin features, product suggestions, and order tracking.",
-      "longDescription": "Built a full-stack e-commerce website with customer and admin features, product suggestions, product management, order tracking, and an easy-to-use interface.",
-      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "id": "shree-haven",
+      "name": "Shree Haven",
+      "description": "E-commerce platform frontend with modern UI and seamless user experience.",
+      "longDescription": "Frontend implementation of ShreeHaven e-commerce platform with responsive design and intuitive user interface.",
+      "tools": ["HTML", "CSS", "JavaScript"],
       "links": {
-        "github": "https://github.com/SanthoshBoggala"
+        "github": "https://github.com/SanthoshBoggala/Shree-Haven"
+      }
+    },
+    {
+      "id": "shreehaven-duplicate",
+      "name": "ShreeHaven Duplicate",
+      "description": "Alternative implementation of ShreeHaven with enhanced features and optimizations.",
+      "longDescription": "An improved version of ShreeHaven e-commerce platform with additional features, performance optimizations, and better code structure.",
+      "tools": ["JavaScript", "React.js", "Node.js"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/ShreeHavenDuplicate"
       }
     }
   ]

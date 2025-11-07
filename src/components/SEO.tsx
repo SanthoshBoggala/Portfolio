@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { useLocation } from 'react-router-dom';
 import { siteData } from '@/data/site-data';
 
 interface SEOProps {
@@ -16,13 +15,12 @@ export const SEO: React.FC<SEOProps> = ({
   image,
   type = 'website',
 }) => {
-  const location = useLocation();
   const fullTitle = title
     ? `${title} | ${siteData.meta.title}`
     : siteData.meta.title;
   const metaDescription = description || siteData.meta.description;
   const metaImage = image || `${siteData.meta.url}${siteData.meta.image}`;
-  const url = `${siteData.meta.url}${location.pathname}`;
+  const url = siteData.meta.url;
 
   return (
     <Helmet>

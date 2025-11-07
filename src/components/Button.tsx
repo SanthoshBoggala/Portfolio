@@ -1,19 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline';
   children: React.ReactNode;
-  asChild?: boolean;
-  to?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
   children,
   className = '',
-  asChild = false,
-  to,
   ...props
 }) => {
   const variantClasses = {
@@ -22,20 +17,12 @@ export const Button: React.FC<ButtonProps> = ({
     outline: 'btn-outline',
   };
 
-  const baseClasses = `btn ${variantClasses[variant]} ${className}`;
-
-  if (asChild && to) {
-    return (
-      <Link to={to} className={baseClasses} {...(props as any)}>
-        {children}
-      </Link>
-    );
-  }
-
   return (
-    <button className={baseClasses} {...props}>
+    <button
+      className={`btn ${variantClasses[variant]} ${className} hover:scale-105 active:scale-95 transition-transform`}
+      {...props}
+    >
       {children}
     </button>
   );
 };
-

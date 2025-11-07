@@ -12,12 +12,15 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) =>
   };
 
   return (
-    <article className="card" aria-labelledby={`experience-${experience.id}-title`}>
+    <article
+      className="card group hover:scale-[1.02] hover:shadow-xl hover:shadow-primary-500/20 transition-all duration-300"
+      aria-labelledby={`experience-${experience.id}-title`}
+    >
       <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
         <div>
           <h3
             id={`experience-${experience.id}-title`}
-            className="text-xl font-semibold text-white mb-1"
+            className="text-xl font-semibold text-white mb-1 group-hover:text-primary-400 transition-colors"
           >
             {experience.position}
           </h3>
@@ -37,13 +40,12 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) =>
       </div>
       <ul className="space-y-2" role="list">
         {experience.description.map((item, index) => (
-          <li key={index} className="text-gray-400 flex items-start">
-            <span className="text-primary-400 mr-2 mt-1.5">◦</span>
-            <span>{item}</span>
+          <li key={index} className="text-gray-400 flex items-start group/item">
+            <span className="text-primary-400 mr-2 mt-1.5 group-hover/item:scale-125 transition-transform">◦</span>
+            <span className="group-hover/item:text-gray-300 transition-colors">{item}</span>
           </li>
         ))}
       </ul>
     </article>
   );
 };
-

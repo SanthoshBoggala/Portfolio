@@ -1,6 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { siteData } from '@/data/site-data';
+
+const scrollToSection = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -23,36 +29,28 @@ export const Footer: React.FC = () => {
             <nav aria-label="Footer navigation">
               <ul className="space-y-2">
                 <li>
-                  <Link
-                    to="/"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                  <button
+                    onClick={() => scrollToSection('home')}
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                   >
                     Home
-                  </Link>
+                  </button>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/projects"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                  <button
+                    onClick={() => scrollToSection('projects')}
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                   >
                     Projects
-                  </Link>
+                  </button>
                 </li>
                 <li>
-                  <Link
-                    to="/contact"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                  <button
+                    onClick={() => scrollToSection('connect')}
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                   >
-                    Contact
-                  </Link>
+                    Connect
+                  </button>
                 </li>
               </ul>
             </nav>
@@ -67,7 +65,7 @@ export const Footer: React.FC = () => {
                     href={siteData.profile.links.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                     aria-label="LinkedIn profile"
                   >
                     LinkedIn
@@ -80,7 +78,7 @@ export const Footer: React.FC = () => {
                     href={siteData.profile.links.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                     aria-label="GitHub profile"
                   >
                     GitHub
@@ -93,7 +91,7 @@ export const Footer: React.FC = () => {
                     href={siteData.profile.links.leetcode}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded"
+                    className="text-gray-400 hover:text-primary-400 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900 rounded hover:translate-x-1 transition-transform inline-block"
                     aria-label="LeetCode profile"
                   >
                     LeetCode
@@ -113,4 +111,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-
