@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Boggala Santhosh - Software Engineer Portfolio",
+    "description": "Software Engineer passionate about building innovative and scalable applications. Skilled in solving complex problems and thriving in fast-paced, collaborative and technology-driven teams.",
+    "keywords": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "React",
+      "TypeScript",
+      "Python",
+      "Django",
+      "Node.js",
+      "Portfolio",
+      "Boggala Santhosh"
+    ],
+    "author": "Boggala Santhosh",
+    "url": "https://santhoshboggala.dev",
+    "image": "/og-image.jpg"
+  },
+  "profile": {
+    "name": "Boggala Santhosh",
+    "title": "Software Engineer",
+    "email": "bsanthoshbsr835@gmail.com",
+    "phone": "+91 9885823771",
+    "location": "Bangalore, India",
+    "summary": "Software Engineer passionate about building innovative and scalable applications. Skilled in solving complex problems and thriving in fast-paced, collaborative and technology-driven teams.",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/boggala-santhosh-a6b518280",
+      "github": "https://github.com/SanthoshBoggala",
+      "leetcode": "https://leetcode.com/u/Santhosh143/"
+    }
+  },
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["Python", "JavaScript", "Java", "TypeScript"]
+    },
+    {
+      "category": "Web Technologies",
+      "items": ["HTML", "CSS", "React.js", "Node.js", "Express.js", "Django"]
+    },
+    {
+      "category": "Database Systems",
+      "items": ["MySQL", "MongoDB"]
+    },
+    {
+      "category": "DevOps & Version Control",
+      "items": ["Docker", "Jenkins", "Git", "GitHub Actions"]
+    },
+    {
+      "category": "Other Tools & Technologies",
+      "items": ["Playwright", "WebdriverIO", "VS Code", "Ubuntu"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "shipsy-se",
+      "company": "Shipsy",
+      "position": "Software Engineer",
+      "location": "Bangalore, India",
+      "startDate": "2025-05",
+      "endDate": null,
+      "current": true,
+      "description": [
+        "Resolved 50+ issues, including bug fixes and RCAs, ensuring system stability and a seamless customer experience.",
+        "Developed a WMS billing platform to analyze customer usage and dynamically calculate charges based on predefined parameters and formulas.",
+        "Automated monthly billing operations using Celery jobs, generating detailed reports and sending automated emails to finance managers, reducing manual effort.",
+        "Improved backend reliability by optimizing database queries, enhancing API performance, and streamlining asynchronous task execution.",
+        "Collaborated with cross-functional teams to deliver production-ready features and ensure timely, high-quality releases."
+      ]
+    },
+    {
+      "id": "shipsy-intern",
+      "company": "Shipsy",
+      "position": "Software Engineer Intern",
+      "location": "Bangalore, India",
+      "startDate": "2024-05",
+      "endDate": "2025-04",
+      "current": false,
+      "description": [
+        "Developed and maintained 500+ automation test cases for TMS and WMS using WebdriverIO and Playwright, ensuring high coverage and faster release cycles.",
+        "Reduced test execution time by 65% through optimized test flows, parallel execution, and elimination of redundant tests, improving CI/CD efficiency.",
+        "Implemented a custom wait mechanism in Playwright to detect idle network states, reducing flaky test failures by 50% and decreasing test runtime by 20%.",
+        "Contributed to backend development by fixing WMS (Django) bugs and performing RCA for production issues."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Rajiv Gandhi University of Knowledge Technologies",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science",
+      "location": "RK Valley, India",
+      "startDate": "2021-07",
+      "endDate": "2025-05",
+      "gpa": "8.67/10.00",
+      "description": []
+    }
+  ],
+  "honors": [
+    {
+      "title": "LeetCode Problem Solver",
+      "description": "Successfully solved 200+ problems on LeetCode and 350+ across coding platforms demonstrating strong problem-solving skills and consistency in data structures and algorithms."
+    },
+    {
+      "title": "Development Coordinator",
+      "description": "Served as Development Coordinator at the SRC Club, mentoring peers in building real-world projects and enhancing development skills."
+    }
+  ],
+  "projects": [
+    {
+      "id": "chitchat",
+      "name": "ChitChat",
+      "description": "Real-time chat application with group chats, guest messaging, and secure single-session login.",
+      "longDescription": "Built a real-time chat app with group chats, guest messaging, and secure single-session login using React.js, Node.js, and Socket.io.",
+      "tools": ["React.js", "Node.js", "Socket.io", "Express.js"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala"
+      }
+    },
+    {
+      "id": "shreehaven",
+      "name": "ShreeHaven",
+      "description": "Full-stack e-commerce website with customer and admin features, product suggestions, and order tracking.",
+      "longDescription": "Built a full-stack e-commerce website with customer and admin features, product suggestions, product management, order tracking, and an easy-to-use interface.",
+      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala"
+      }
+    }
+  ]
+}
+
