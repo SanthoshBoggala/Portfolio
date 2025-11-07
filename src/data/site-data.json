@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Boggala Santhosh - Software Engineer Portfolio",
+    "title": "Santhosh Boggala - Software Engineer Portfolio",
     "description": "Software Engineer passionate about building innovative and scalable applications. Skilled in solving complex problems and thriving in fast-paced, collaborative and technology-driven teams.",
     "keywords": [
       "Software Engineer",
@@ -11,14 +11,14 @@
       "Django",
       "Node.js",
       "Portfolio",
-      "Boggala Santhosh"
+      "Santhosh Boggala"
     ],
-    "author": "Boggala Santhosh",
+    "author": "Santhosh Boggala",
     "url": "https://santhoshboggala.dev",
     "image": "/og-image.jpg"
   },
   "profile": {
-    "name": "Boggala Santhosh",
+    "name": "Santhosh Boggala",
     "title": "Software Engineer",
     "email": "bsanthoshbsr835@gmail.com",
     "phone": "+91 9885823771",
@@ -45,7 +45,7 @@
     },
     {
       "category": "DevOps & Version Control",
-      "items": ["Docker", "Jenkins", "Git"]
+      "items": ["Docker", "Jenkins", "Git", "GitHub Actions"]
     },
     {
       "category": "Other Tools & Technologies",
@@ -90,10 +90,20 @@
       "institution": "Rajiv Gandhi University of Knowledge Technologies",
       "degree": "Bachelor of Technology",
       "field": "Computer Science",
-      "location": "RK Valley, India",
+      "location": "RK Valley, Andhra Pradesh, India",
       "startDate": "2021-07",
       "endDate": "2025-05",
       "gpa": "8.67/10.00",
+      "description": []
+    },
+    {
+      "institution": "Rajiv Gandhi University of Knowledge Technologies",
+      "degree": "Intermediate",
+      "field": "MPC",
+      "location": "RK Valley, Andhra Pradesh, India",
+      "startDate": "2019-07",
+      "endDate": "2021-05",
+      "gpa": "9.5/10.00",
       "description": []
     }
   ],
@@ -119,6 +129,16 @@
       }
     },
     {
+      "id": "chitchat",
+      "name": "ChitChat",
+      "description": "Real-time chat application with group chats, guest messaging, and secure single-session login.",
+      "longDescription": "Built a real-time chat app with group chats, guest messaging, and secure single-session login using React.js, Node.js, and Socket.io.",
+      "tools": ["React.js", "Node.js", "Socket.io", "Express.js"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala"
+      }
+    },
+    {
       "id": "ecommerce-api",
       "name": "Ecommerce API",
       "description": "RESTful API for a shopping website with comprehensive product and order management.",
@@ -136,46 +156,6 @@
       "tools": ["JavaScript", "Node.js", "Express.js"],
       "links": {
         "github": "https://github.com/SanthoshBoggala/Restaurant-API"
-      }
-    },
-    {
-      "id": "shreehaven-backend",
-      "name": "ShreeHaven Backend",
-      "description": "Backend API for ShreeHaven e-commerce platform with robust data management.",
-      "longDescription": "Dedicated backend service for ShreeHaven e-commerce platform, handling all server-side logic, database operations, and API endpoints.",
-      "tools": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
-      "links": {
-        "github": "https://github.com/SanthoshBoggala/ShreeHavenBackend"
-      }
-    },
-    {
-      "id": "chitchat",
-      "name": "ChitChat",
-      "description": "Real-time chat application with group chats, guest messaging, and secure single-session login.",
-      "longDescription": "Built a real-time chat app with group chats, guest messaging, and secure single-session login using React.js, Node.js, and Socket.io.",
-      "tools": ["React.js", "Node.js", "Socket.io", "Express.js"],
-      "links": {
-        "github": "https://github.com/SanthoshBoggala"
-      }
-    },
-    {
-      "id": "shree-haven",
-      "name": "Shree Haven",
-      "description": "E-commerce platform frontend with modern UI and seamless user experience.",
-      "longDescription": "Frontend implementation of ShreeHaven e-commerce platform with responsive design and intuitive user interface.",
-      "tools": ["HTML", "CSS", "JavaScript"],
-      "links": {
-        "github": "https://github.com/SanthoshBoggala/Shree-Haven"
-      }
-    },
-    {
-      "id": "shreehaven-duplicate",
-      "name": "ShreeHaven Duplicate",
-      "description": "Alternative implementation of ShreeHaven with enhanced features and optimizations.",
-      "longDescription": "An improved version of ShreeHaven e-commerce platform with additional features, performance optimizations, and better code structure.",
-      "tools": ["JavaScript", "React.js", "Node.js"],
-      "links": {
-        "github": "https://github.com/SanthoshBoggala/ShreeHavenDuplicate"
       }
     }
   ]
