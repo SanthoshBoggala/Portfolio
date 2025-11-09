@@ -37,11 +37,11 @@
     },
     {
       "category": "Web Technologies",
-      "items": ["HTML", "CSS", "React.js", "Node.js", "Express.js", "Django"]
+      "items": ["HTML", "CSS", "React.js", "Node.js", "Express.js", "Django", "REST APIs"]
     },
     {
       "category": "Database Systems",
-      "items": ["MySQL", "MongoDB"]
+      "items": ["MySQL", "MongoDB", "PostgreSQL"]
     },
     {
       "category": "DevOps & Version Control",
@@ -49,7 +49,7 @@
     },
     {
       "category": "Other Tools & Technologies",
-      "items": ["Playwright", "WebdriverIO", "VS Code", "Ubuntu"]
+      "items": ["Postman", "Playwright", "WebdriverIO", "VS Code", "Cursor", "Ubuntu"]
     }
   ],
   "experience": [
@@ -105,6 +105,16 @@
       "endDate": "2021-05",
       "gpa": "9.5/10.00",
       "description": []
+    },
+    {
+      "institution": "Zilla Parishad High School",
+      "degree": "Secondary School Education",
+      "field": "",
+      "location": "Gangadhara Nellore, Andhra Pradesh, India",
+      "startDate": "2015-06",
+      "endDate": "2019-05",
+      "gpa": "9.8/10.00",
+      "description": []
     }
   ],
   "honors": [
@@ -123,7 +133,7 @@
       "name": "ShreeHaven",
       "description": "Full-stack e-commerce website with customer and admin features, product suggestions, and order tracking.",
       "longDescription": "Built a full-stack e-commerce website with customer and admin features, product suggestions, product management, order tracking, and an easy-to-use interface using MERN stack.",
-      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5", "REST APIs"],
       "links": {
         "github": "https://github.com/SanthoshBoggala/ShreeHaven"
       }
@@ -133,7 +143,7 @@
       "name": "ChitChat",
       "description": "Real-time chat application with group chats, guest messaging, and secure single-session login.",
       "longDescription": "Built a real-time chat app with group chats, guest messaging, and secure single-session login using React.js, Node.js, and Socket.io.",
-      "tools": ["React.js", "Node.js", "Socket.io", "Express.js"],
+      "tools": ["React.js", "Node.js", "Socket.io", "Express.js", "REST APIs"],
       "links": {
         "github": "https://github.com/SanthoshBoggala"
       }
@@ -143,7 +153,7 @@
       "name": "Ecommerce API",
       "description": "RESTful API for a shopping website with comprehensive product and order management.",
       "longDescription": "This is my first REST API project for a shopping website. Built with Node.js and Express.js, featuring product management, user authentication, and order processing capabilities.",
-      "tools": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+      "tools": ["JavaScript", "Node.js", "Express.js", "MongoDB", "REST APIs"],
       "links": {
         "github": "https://github.com/SanthoshBoggala/Ecommerce-API"
       }
@@ -153,9 +163,29 @@
       "name": "Restaurant API",
       "description": "RESTful API for restaurant management system with menu and order handling.",
       "longDescription": "A comprehensive REST API for restaurant operations including menu management, order processing, and customer service features.",
-      "tools": ["JavaScript", "Node.js", "Express.js"],
+      "tools": ["JavaScript", "Node.js", "Express.js", "REST APIs"],
       "links": {
         "github": "https://github.com/SanthoshBoggala/Restaurant-API"
+      }
+    },
+    {
+      "id": "explore-blog-app",
+      "name": "ExploreBlogApp",
+      "description": "Blog application to explore and publish posts with user accounts.",
+      "longDescription": "Built a blog application named ExploreBlogApp with features like user authentication, creating/editing/publishing blog posts, and exploring posts from other users. Repository: https://github.com/SanthoshBoggala/ExploreBlogApp :contentReference[oaicite:0]{index=0}",
+      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/ExploreBlogApp"
+      }
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio",
+      "description": "Personal portfolio website showcasing projects and skills.",
+      "longDescription": "Created a personal dynamic portfolio website to showcase my skills, projects, experience and provide a way for potential employers/clients to contact me.",
+      "tools": ["React.js", "Vite", "TypeScript", "Tailwind CSS"],
+      "links": {
+        "github": "https://github.com/SanthoshBoggala/Portfolio"
       }
     }
   ]

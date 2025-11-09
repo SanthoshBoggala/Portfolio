@@ -24,8 +24,8 @@ export const Home: React.FC = () => {
           {siteData.profile.summary}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button onClick={() => scrollToSection('projects')} variant="primary">
-            View Projects
+          <Button onClick={() => scrollToSection('experience')} variant="primary">
+            View Experience
           </Button>
           <Button onClick={() => scrollToSection('connect')} variant="outline">
             Get In Touch

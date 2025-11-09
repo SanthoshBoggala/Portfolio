@@ -21,7 +21,7 @@ export const EducationHonors: React.FC = () => {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                   <div>
                     <h4 className="text-xl font-semibold text-white mb-1 group-hover:text-primary-400 transition-colors">
-                      {edu.degree} in {edu.field}
+                     {edu.degree}{edu.field ? ` in ${edu.field}` : ''}
                     </h4>
                     <p className="text-primary-400 font-medium">{edu.institution}</p>
                     <p className="text-gray-500 text-sm mt-1">{edu.location}</p>
