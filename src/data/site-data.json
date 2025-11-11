@@ -172,8 +172,8 @@
       "id": "explore-blog-app",
       "name": "ExploreBlogApp",
       "description": "Blog application to explore and publish posts with user accounts.",
-      "longDescription": "Built a blog application named ExploreBlogApp with features like user authentication, creating/editing/publishing blog posts, and exploring posts from other users. Repository: https://github.com/SanthoshBoggala/ExploreBlogApp :contentReference[oaicite:0]{index=0}",
-      "tools": ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap5"],
+      "longDescription": "Built a blog application named ExploreBlogApp with features like user authentication, creating/editing/publishing blog posts, and exploring posts from other users.",
+      "tools": ["Python", "REST APIs"],
       "links": {
         "github": "https://github.com/SanthoshBoggala/ExploreBlogApp"
       }
